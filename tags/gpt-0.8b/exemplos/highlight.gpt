@@ -1,0 +1,80 @@
+/*
+  Isso não é um algoritmo. Apenas o conjunto de palavras
+  e termos usados em G-Portugol, criado para ser observado
+  por um editor com highlight.
+*/
+
+//-------------------------------------
+
+//comentario estilo C++
+
+/*
+  comentario estilo C
+*/
+
+//palavras chave
+fim-variáveis
+algoritmo
+variáveis
+início
+função
+fim
+
+//tipos de dado
+matriz
+conjunto
+
+inteiro
+inteiros
+real
+reais
+caractere
+caracteres
+literal
+literais
+lógico
+lógicos
+
+//valores booleanos
+verdadeiro
+falso
+
+//valore literais
+"valor literal"
+
+//valores caractere
+'c'
+
+//estruturas de controle
+se
+senão
+então
+fim-se
+enquanto
+faça
+fim-enquanto
+para
+de
+até
+passo
+até
+fim-para
+retorne
+
+//operadores
+e ou não := | ^ < ~  = < <= > >= + - / * %
+
+
+//simbolos
+( ) [ ] ; : ,
+
+
+//funções incorporadas
+leia
+imprima
+
+//variaveis
+var
+
+//funções de usuário    
+fazerAlgo()

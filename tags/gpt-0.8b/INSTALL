@@ -1,0 +1,53 @@
+Instalacao Basica
+=================
+
+  o Pre-requisitos
+
+    - ANTLR: 
+        Ferramenta para construcao de compiladores (testado com v2.7.5).
+        http://www.antlr.org
+
+    - Perl Compatible Regular Expressions: 
+        Biblioteca de expressões regulares.
+        http://www.pcre.org/
+
+  o  Comandos para instalacao padrao:
+    
+    $ tar xvfz gpt-xxx.tar.gz
+    $ cd gpt-xxx
+    $ ./configure
+    $ make
+    $ su
+    # make install
+
+
+  o  Opcoes de configuracao
+
+    ANTLR:
+      Se voce instalou o ANTLR em um diretorio nao-padrao ou se o 
+      binario "antlr" nao pode ser encontrado pela variavel de 
+      ambiente PATH, use o  argumento --with-antlr-path.
+  
+      Exemplo:
+        $ ./configure --with-antlr=/path/to/antlr
+  
+      de forma que "/path/to/antlr" seja o caminho do antlr no sistema.
+
+
+    Devel:
+      Se voce deseja que a biblioteca dinamica (.so) e headers do 
+      compilador sejam instalados no sistema, execute o script 
+      "configure" da seguinte forma:
+
+      $ ./configure --enable-install-devel
+
+      Essa opcao eh nescessaria se voce instalar o programa GPTEditor e 
+      deseja utilizar a opcao "analise em segundo plano".
+
+      Nota: para desisntalar apenas os arquivos devel (header e libs) use:
+      
+      # make uninstall-devel
+
+  o  Outras opcoes
+
+    Para maiores detalhes, leia INSTALL.default
