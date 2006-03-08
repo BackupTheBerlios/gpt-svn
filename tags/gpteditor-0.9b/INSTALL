@@ -1,0 +1,46 @@
+Instalacao Basica
+=================
+
+  o Pre-requisitos
+
+    - KDE v 3.x: (testado com a versao 3.5)
+        http://www.kde.org
+
+    - GPT: 
+				O compilador/interpretador/tradutor/depurador/*or G-Portugol        
+        http://gpt.berlios.de
+
+
+  o  Comandos para instalacao padrao:
+    
+    $ tar xvfz gpteditor-xxx.tar.gz
+    $ cd gpteditor-xxx
+    $ ./configure
+    $ make
+    $ su
+    # make install
+
+  o  CVS
+
+		Se voce baixou os fontes do CVS:
+    
+    $ make -f Makefile.cvs
+    $ ./configure
+    $ make
+    $ su
+    # make install
+
+
+  o  Opcoes de configuracao
+
+      Se voce deseja habilitar a opcao "analise em segundo plano",
+			precisarah ter compilado o GPT com a opcao "--enable-install-devel".
+			
+			Apos ter compilado o GPT, execute o "configure" do GPTEditor com a opcao
+			"--enable-bg-parser"
+		
+			$ ./configure --enable-bg-parser
+	
+  o  Outras opcoes
+
+    Para maiores detalhes, leia INSTALL.default
