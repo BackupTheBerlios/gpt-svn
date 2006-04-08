@@ -1,0 +1,46 @@
+Instalação Usando os Fontes
+===========================
+
+  o Pré-requisitos
+
+    - KDE v 3.x: (testado com a versão 3.5)
+        http://www.kde.org
+
+    - GPT: 
+				O compilador/interpretador/tradutor/depurador/*or G-Portugol        
+        http://gpt.berlios.de
+
+
+  o  Comandos para instalção padrão:
+    
+    $ tar xvfz gpteditor-xxx.tar.gz
+    $ cd gpteditor-xxx
+    $ ./configure
+    $ make
+    $ su
+    # make install
+
+  o  CVS
+
+		Se voce baixou os fontes do repositório SVN:
+    
+    $ make -f Makefile.cvs
+    $ ./configure
+    $ make
+    $ su
+    # make install
+
+
+  o  Opções de configuração
+
+      Se voce deseja habilitar a opção "análise em segundo plano",
+			precisará ter compilado o GPT com a opção "--enable-install-devel".
+			
+			Após ter compilado o GPT, execute o "configure" do GPTEditor com a opção
+			"--enable-bg-parser"
+		
+			$ ./configure --enable-bg-parser
+	
+  o  Outras opções
+
+    Para maiores detalhes, leia INSTALL.default
